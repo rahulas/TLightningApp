@@ -9,10 +9,10 @@
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/reportTv"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="monospace"
-        android:padding="@dimen/default_margin"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
         android:textColor="@color/colorWhite"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -45,6 +45,7 @@ class UserInputActivity : AppCompatActivity() {
 
         val adapter = ArrayAdapter(this, R.layout.cloud_color_list_item, items)
         binding.cloudColorEt.apply {
+            setOnClickListener {  closeKeyBoard(this@UserInputActivity) }
             setAdapter(adapter)
             onItemClickListener =
                 OnItemClickListener { parent, arg1, pos, id ->

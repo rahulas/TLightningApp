@@ -1,11 +1,13 @@
 package com.rahul.thelightningapp.ui
 
+import android.R.attr.button
 import android.animation.ObjectAnimator
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.rahul.thelightningapp.databinding.ActivitySplashBinding
+
 
 class SplashActivity : AppCompatActivity() {
     private val splashTime: Long = 2000
@@ -15,8 +17,9 @@ class SplashActivity : AppCompatActivity() {
         val binding: ActivitySplashBinding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        ObjectAnimator.ofFloat(binding.iv, "translationY", 50f).apply {
-            duration = 1000
+        val end: Float = binding.iv.translationX + 50
+        ObjectAnimator.ofFloat(binding.iv, "translationY", end).apply {
+            duration = 2000
             start()
         }
         Handler().postDelayed({
