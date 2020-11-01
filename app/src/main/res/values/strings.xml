@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">The Lightning App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="wind_speed">Wind speed</string>
+    <string name="cloud_color">Cloud color</string>
+    <string name="temp">Temperature</string>
+    <string name="enter_wind_speed">Enter wind speed in Meters per second (m/s)</string>
+    <string name="select_cloud_color">Range of cloud colors in visible spectrum</string>
+    <string name="enter_temp">Enter temperature in Celsius (Ex: 100\u00B0 C)</string>
+    <string name="predict">Predict</string>
+    <string name="pls_enter_wind_speed">Please enter wind speed</string>
+    <string name="pls_select_cloud_color">Please select cloud color</string>
+    <string name="pls_enter_temp">Please enter temperature</string>
+    <string name="min_speed_error">Average wind speed recorded is 2 m/s</string>
+
+
+    <string name="degreeC">\u00B0 C</string>
+    <string name="open_folder">Open folder</string>
+    <string name="mail_prediction">Mail Predictions</string>
+
+
+</resources>

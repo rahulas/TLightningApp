@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "178163787026",
+    "firebase_url": "https://the-lightning-app-c684c.firebaseio.com",
+    "project_id": "the-lightning-app-c684c",
+    "storage_bucket": "the-lightning-app-c684c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178163787026:android:ec51ba9eef409e7a4c7fcb",
+        "android_client_info": {
+          "package_name": "com.rahul.thelightningapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178163787026-con54eu81l83m69da38c08depreo3l2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBigAiD_19xSexBpwQcIMTUZ3iyowZhU3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178163787026-con54eu81l83m69da38c08depreo3l2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
